@@ -29,7 +29,7 @@
 
 ### 2. Copy The Script from the repo (`download_memories.py`)
 
-### 3. Run ItOpen your terminal/command prompt, navigate to the folder, and run:
+### 3. Run It -> Open your terminal/command prompt, navigate to the folder, and run:
 
 **Windows:**
 
