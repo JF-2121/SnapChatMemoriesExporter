@@ -1,8 +1,8 @@
 # SnapChatMemoriesExporter
 
-# A simple tool to bulk download your Snapchat Memories (Photos & Videos) from your data export so you can save them locally and wipe your account.
+#### A simple tool to bulk download your Snapchat Memories (Photos & Videos), from your data export so you can save them locally and wipe your account.
 
-##🚀 Part 1: Get Your DataSnapchat doesn't let you download everything at once easily. You need their official data export file first.
+## Part 1: Get Your DataSnapchat doesn't let you download everything at once easily. You need their official data export file first.
 
 1. Log in to [accounts.snapchat.com](https://accounts.snapchat.com).
 2. Click **My Data**.
@@ -14,9 +14,9 @@
 
 ---
 
-##💻 Part 2: Download Your FilesThis script reads the hidden links in your HTML file and downloads them with the correct dates.
+## Part 2: Download Your FilesThis script reads the hidden links in your HTML file and downloads them with the correct dates.
 
-###1. Setup* **Install Python:**
+### 1. Setup* **Install Python:**
 * **Windows:** [Download here](https://www.python.org/downloads/). (Check "Add Python to PATH" during install).
 * **Mac/Linux:** You likely have it. Type `python3 --version` in terminal to check.
 
@@ -27,9 +27,9 @@
 * Create a file named `download.py` inside it and paste the code below.
 
 
-###2. Copy The Script from the repo (`download_memories.py`)```python
+### 2. Copy The Script from the repo (`download_memories.py`)
 
-###3. Run ItOpen your terminal/command prompt, navigate to the folder, and run:
+### 3. Run ItOpen your terminal/command prompt, navigate to the folder, and run:
 
 **Windows:**
 
@@ -49,17 +49,19 @@ python3 download.py
 
 ---
 
-##🗑️ Part 3: Delete From SnapchatOnce you have verified your files are safe locally:
+## Part 3: Delete From SnapchatOnce you have verified your files are safe locally:
 
-###Option A: Manual Delete (Keep Account)1. Open Snapchat app -> **Memories**.
+### Option A: Manual Delete (Keep Account)
+1. Open Snapchat app -> **Memories**.
 2. Hold one Snap to select.
 3. Tap **Select All** (top right).
 4. Tap **Delete**.
-* *Note: For 25GB, the app will crash. Do this in batches (e.g., month by month).*
+* *Note: For >5GB, the app can crash. You can do this in batches (e.g., month by month).*
 
 
 
-###Option B: Nuke Everything (Delete Account)1. Go to [accounts.snapchat.com](https://accounts.snapchat.com).
+### Option B: Nuke Everything (Delete Account)
+1. Go to [accounts.snapchat.com](https://accounts.snapchat.com).
 2. Select **Delete My Account**.
 3. Wait 30 days without logging in. All data is wiped permanently.
 
