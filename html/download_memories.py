@@ -49,7 +49,7 @@ for i, url in enumerate(matches):
         # Download the file
         local_filename, headers = urllib.request.urlretrieve(url, file_path)
 
-        # Try to add correct extension based on content-type header
+        # Try to add correct extension based o-n content-type header
         content_type = headers.get('Content-Type', '')
         extension = ""
         if 'video' in content_type:
